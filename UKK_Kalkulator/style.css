@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: rgb(205, 171, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+form{
+    background-color: rgb(210, 187, 219);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+h1{
+    margin: 0 0 15px;
+}
+input, select, button, a{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+select{
+    width: 60px;
+    text-align: center;
+}
+button, a{
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 315px;
+    background-color: rgb(193, 127, 255);
+    color: white;
+    border: 0;
+    text-decoration: none;
+}
+a{
+    margin-top: 15px;
+}
+
+@media print{
+
+    a{
+        display: none;
+    }
+}
